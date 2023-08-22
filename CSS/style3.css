@@ -60,6 +60,27 @@ button:hover{
 
 
 
+/* learn about flex box
+we can use flex box to horizenta and vertical element
+
+ */
+
+ .container{
+    display : flex;
+    margin-top:20px;
+    justify-content: space-around;
+    align-items: center;
+ }
+ /* some flex properties */
+
+ /* 1:justify content */
+ /* justify-content: space-around; it give equal space  */
+
+ 
+
+
+
+
 
 
 
