@@ -1,0 +1,27 @@
+body{
+    margin:20px;
+}
+.ambuj{
+    width: 150px;
+}
+
+.card{
+    text-align: center;
+    display:flex;
+    width: 400px;
+    margin: 0px auto;
+    justify-content: space-around;
+    color:#2b2839;
+    background:#8d99ae;
+    padding: 40px;
+    border-bottom: 10px solid #001d3d;
+    border-radius:10px
+}
+.title{
+    font-size: 22px;
+}
+h4,p{
+    font-size:18px
+}
+
+
