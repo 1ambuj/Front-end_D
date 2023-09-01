@@ -3,8 +3,8 @@
 .spaceEx {
     padding-top: 50px;
     height: 80vh;
-    color: white;
-    background-image: url("universe-galaxy.jpg");
+    color: #82a5ca;;
+    background-image: url("gift.webp");
     background-size: cover;
     background-repeat: repeat;
     text-align: center;
@@ -16,5 +16,27 @@
     font-weight: bold;
     padding:5px  8px;
     background: #fff;
+    color: #82a5ca;
+    font-weight: bold;
     
 }
+
+.spaceEx span{
+    border-bottom: 6px solid white;
+   
+}
+/*
+Challenge:
+Wrap the "hero" section (title, button, logo) in a <div>
+and set its background image to the galaxy image. This will 
+force you to also add some padding on the "hero" <div>.
+
+Add a "Terms and conditions apply" <h3> below the "hero"
+section.
+
+PS: your layout will likely be disturbed by the <body> 
+tag's default margin.
+*/
+
+
+
