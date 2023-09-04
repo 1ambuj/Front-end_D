@@ -4,27 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
     <title>Basket ball dashboard</title>
 </head>
 <body>
     <div class="Dashboard">
         <div class="container">
             <div>
-                <h3>HOME</h3>
-                <div id="counter">
-                    <h1 class="score">0</h1>
+                <h3 class="boardTitle">HOME</h3>
+                <div id="score">
+                    <h1 class="homeText">12</h1>
                 </div>
                 <div class="btn">
-
+                    <button  class="homefirstbtn" onclick="addHomeFirstValue()">+1</button>
+                    <button  class="homesecondbtn" onclick="addHomeSecondValue()">+2</button>
+                    <button  class="homethirdbtn" onclick="addHomeThirdValue()">+3</button>
                 </div>
             </div>
             <div>
-                <h3>GUEST</h3>
-                <div id="counter">
-                    <h1 class="score">2</h1>
+                <h3 class="boardTitle">GUEST</h3>
+                <div id="score">
+                    <h1 class="guestText">5</h1>
                 </div>
                 <div class="btn">
-                    
+                    <button class="guestfirstbtn" onclick="addGuestFirstValue()">+1</button>
+                    <button class="guestsecondbtn" onclick="addGuestSecondValue()">+2</button>
+                    <button class="guestthirdbtn" onclick="addGuestThirdValue()">+3</button>
                 </div>
             </div>
         </div>
