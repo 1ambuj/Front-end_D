@@ -4,21 +4,18 @@ let score = document.querySelector(".homeText")
 let vlaue1 = document.querySelector(".homefirstbtn")
 let value2 =document.querySelector(".homesecondbtn")
 let value3 = document.querySelector(".homethirdbtn")
-let firstValue = score.textContent
+let secondValue = vlaue1.textContent
 function addHomeFirstValue(){
-   let secondValue = vlaue1.textContent
-   let sum = Number(firstValue) + Number(secondValue)
-   score.textContent  = sum
+   let sum = Number(score.textContent) + Number(secondValue)
+   score.textContent = sum
 }
 
 function addHomeSecondValue(){
-    let secondValue = value2.textContent
-    let sum = Number(firstValue) + Number(secondValue)
+    let sum = Number(score.textContent) + Number(value2.textContent)
     score.textContent  = sum
  }
  function addHomeThirdValue(){
-    let secondValue = value3.textContent
-    let sum = Number(firstValue) + Number(secondValue)
+    let sum = Number(score.textContent) + Number(value3.textContent)
     score.textContent  = sum
  }
 
@@ -30,16 +27,16 @@ function addHomeSecondValue(){
  let guestvalue3 = document.querySelector(".homethirdbtn")
 
  function addGuestFirstValue(){
-    let sum = Number(guestfirstvalue) + Number(guestvlaue1.textContent)
+    let sum = Number(guestscore.textContent) + Number(guestvlaue1.textContent)
     guestscore.textContent  = sum
  }
  
  function addGuestSecondValue(){
-     let sum = Number(guestfirstvalue) + Number(guestvalue2.textContent)
-     guestscore.textContent  = sum
+   let sum = Number(guestscore.textContent) + Number(guestvalue2.textContent)
+   guestscore.textContent  = sum
   }
   function addGuestThirdValue(){
-     let sum = Number(guestfirstvalue) + Number(guestvalue3.textContent)
+     let sum = Number(guestscore.textContent) + Number(guestvalue3.textContent)
      guestscore.textContent  = sum
   }
  
